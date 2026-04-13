@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title.zh">个人求职网站 | Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-i18n="nav.home">首页</a></li>
+                <li><a href="#about" data-i18n="nav.about">关于我</a></li>
+                <li><a href="#skills" data-i18n="nav.skills">技能</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">项目</a></li>
+                <li><a href="#resume" data-i18n="nav.resume">简历</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">联系方式</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="lang-switch" id="langSwitch">English</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 第一部分：Home/Headline -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span data-i18n="hero.greeting">你好，我是</span>
+                    <span class="highlight" id="userName">徐瑞莹</span>
+                </h1>
+                <p class="hero-headline" data-i18n="hero.headline">
+                    数据科学硕士 | 寻求数据分析师/数据科学RA岗位
+                </p>
+                <div class="hero-tags">
+                    <span class="tag">Data Science</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Big Data</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Hadoop</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.cta">联系我</a>
+                    <a href="#projects" class="btn btn-secondary" data-i18n="hero.viewProjects">查看项目</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第二部分：About Me -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro" data-i18n="about.intro">
+                        目前就读于岭南大学数据科学专业，预计2026年8月毕业。我善于从数据中挖掘价值，将复杂的技术问题转化为可落地的解决方案。
+                    </p>
+                    <div class="about-details">
+                        <div class="about-item">
+                            <h3 data-i18n="about.education">教育背景</h3>
+                            <div class="education-card">
+                                <div class="edu-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="edu-info">
+                                    <h4 data-i18n="about.uniMaster">岭南大学</h4>
+                                    <p data-i18n="about.master">数据科学硕士 | GPA: 3.69/4.0</p>
+                                    <p class="edu-time">2025.09 - Present</p>
+                                </div>
+                            </div>
+                            <div class="education-card">
+                                <div class="edu-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="edu-info">
+                                    <h4 data-i18n="about.uniBachelor">河南工业大学</h4>
+                                    <p data-i18n="about.bachelor">数据科学与大数据技术学士 | GPA: 3.5/5.0, Top 20%</p>
+                                    <p class="edu-time">2020.09 - 2024.06</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <h3 data-i18n="about.strengths">我的优势</h3>
+                            <ul class="strengths-list">
+                                <li data-i18n="about.strength1">
+                                    <i class="fas fa-chart-line"></i>
+                                    数据分析与机器学习
+                                </li>
+                                <li data-i18n="about.strength2">
+                                    <i class="fas fa-chart-bar"></i>
+                                    数据可视化与商业智能
+                                </li>
+                                <li data-i18n="about.strength3">
+                                    <i class="fas fa-code"></i>
+                                    全栈开发能力
+                                </li>
+                                <li data-i18n="about.strength4">
+                                    <i class="fas fa-rocket"></i>
+                                    学习能力强，快速掌握新技术
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-achievements">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4 data-i18n="about.achievement1">2024校级优秀毕业论文</h4>
+                            <p data-i18n="about.thesis">珠宝租赁系统设计与实现</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4 data-i18n="about.achievement2">蓝桥杯三等奖</h4>
+                            <p data-i18n="about.achievement2Desc">第13届全国软件信息技术大赛Python类别省级三等奖</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4 data-i18n="about.achievement3">优秀学生干部</h4>
+                            <p data-i18n="about.achievement3Desc">2023校级优秀班干部、2022校级优秀共青团干部</p>
+                        </div>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="achievement-content">
+                            <h4 data-i18n="about.ielts">雅思6.0</h4>
+                            <p data-i18n="about.cet">通过CET-4和CET-6</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第三部分：Skills -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills.title">专业技能</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-code"></i>
+                        <span data-i18n="skills.technical">技术技能</span>
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.python">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.java">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.sql">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.c">C</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.springBoot">Spring Boot</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-brain"></i>
+                        <span data-i18n="skills.research">研究兴趣</span>
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.research1">数据挖掘和大数据分析</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.research2">人工智能和机器学习应用</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.research3">智慧城市数据科学</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name" data-i18n="skills.research4">大语言模型(LLMs)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <i class="fas fa-tools"></i>
+                        <span data-i18n="skills.tools">工具</span>
+                    </h3>
+                    <div class="tools-grid">
+                        <div class="tool-tag">
+                            <i class="fas fa-database"></i>
+                            <span data-i18n="tools.hadoop">Hadoop</span>
+                        </div>
+                        <div class="tool-tag">
+                            <i class="fas fa-chart-pie"></i>
+                            <span data-i18n="tools.tableau">Tableau</span>
+                        </div>
+                        <div class="tool-tag">
+                            <i class="fas fa-chart-area"></i>
+                            <span data-i18n="tools.echarts">ECharts</span>
+                        </div>
+                        <div class="tool-tag">
+                            <i class="fab fa-vuejs"></i>
+                            <span data-i18n="tools.vue">Vue.js</span>
+                        </div>
+                        <div class="tool-tag">
+                            <i class="fas fa-leaf"></i>
+                            <span data-i18n="tools.springBoot">Spring Boot</span>
+                        </div>
+                        <div class="tool-tag">
+                            <i class="fas fa-file-alt"></i>
+                            <span data-i18n="tools.latex">LaTeX</span>
+                        </div>
+                        <div class="tool-tag">
+                            <i class="fas fa-database"></i>
+                            <span data-i18n="tools.mysql">MySQL</span>
+                        </div>
+                        <div class="tool-tag">
+                            <i class="fas fa-exchange-alt"></i>
+                            <span data-i18n="tools.kettle">Kettle</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第四部分：Projects -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects.title">项目经历</h2>
+            <p class="section-subtitle" data-i18n="projects.subtitle">以下是我参与的主要数据分析与机器学习项目</p>
+
+            <div class="projects-grid">
+
+                <!-- 项目1：进行中研究项目 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title" data-i18n="projects.proj4">在研项目：基于机器学习的ECG异常自动分类研究</h3>
+                        <span class="project-time" data-i18n="projects.ongoing">进行中</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-item">
+                            <h4><i class="fas fa-question-circle"></i> <span data-i18n="projects.problem">问题背景</span></h4>
+                            <p data-i18n="projects.proj4Desc1">研究心电图(ECG)异常的自动分类方法，针对典型心脏异常如左心室肥大(LVH)进行神经网络模型性能测试。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-database"></i> <span data-i18n="projects.data">数据</span></h4>
+                            <p data-i18n="projects.proj4Desc2">12导联ECG数据，通过基线漂移去除和R波峰值检测实现心跳分割，标准化为64样本序列，生成患者平均心跳特征。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-cogs"></i> <span data-i18n="projects.approach">方法</span></h4>
+                            <p data-i18n="projects.proj4Desc3">完成数据预处理、心跳分割、线性插值标准化、错误样本识别与消除，目前正在测试神经网络模型对左心室肥大(LVH)的分类性能。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-chart-line"></i> <span data-i18n="projects.outcome">当前进展</span></h4>
+                            <p data-i18n="projects.proj4Desc4">已完成数据预处理、心跳分割和标准化，正在测试针对LVH的神经网络分类模型性能。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-user"></i> <span data-i18n="projects.contribution">个人贡献</span></h4>
+                            <p data-i18n="projects.proj4Desc5">独立完成数据预处理流程设计、心跳分割算法实现、神经网络模型构建与测试。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fab fa-github"></i> GitHub</h4>
+                            <p><a href="https://github.com/Xuxu0310/Stickman_Fighting_Game/tree/main" target="_blank" style="color:#2563eb; font-weight:500;">https://github.com/Xuxu0310/Stickman_Fighting_Game/tree/main</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 项目1：毕业论文 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title" data-i18n="projects.proj1">本科毕业论文：基于Hadoop的珠宝租赁系统设计与实现</h3>
+                        <span class="project-time">2024.01 - 2024.06</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-item">
+                            <h4><i class="fas fa-question-circle"></i> <span data-i18n="projects.problem">问题背景</span></h4>
+                            <p data-i18n="projects.proj1Desc1">针对珠宝租赁行业快速增长的需求，解决珠宝供需双方灵活匹配的问题，提高行业管理效率和服务质量。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-database"></i> <span data-i18n="projects.data">数据</span></h4>
+                            <p data-i18n="projects.proj1Desc2">使用MySQL进行数据存储和管理，依托Hadoop平台完成大规模数据处理和分析，为租赁业务提供数据支持。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-cogs"></i> <span data-i18n="projects.approach">方法</span></h4>
+                            <p data-i18n="projects.proj1Desc3">前端使用JavaScript和Vue.js构建界面，后端基于Hadoop平台进行数据处理，MySQL存储数据。完成系统需求分析、架构设计、编码实现和测试部署。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-chart-line"></i> <span data-i18n="projects.outcome">成果</span></h4>
+                            <p data-i18n="projects.proj1Desc4">荣获2024年校级优秀毕业论文。系统实现管理员和用户两大模块：管理员管理用户、珠宝、租赁、公告，查看租赁数据统计；用户可出租或租赁珠宝。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-user"></i> <span data-i18n="projects.contribution">个人贡献</span></h4>
+                            <p data-i18n="projects.proj1Desc5">独立完成整个系统的需求分析、架构设计、编码实现和测试部署。设计并实现前后端功能模块，完成数据库设计和Hadoop数据处理流程。</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 项目2：音乐网站 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title" data-i18n="projects.proj2">音乐网站项目（科大讯飞指导）</h3>
+                        <span class="project-time">2024.01 - 2024.05</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-item">
+                            <h4><i class="fas fa-question-circle"></i> <span data-i18n="projects.problem">问题背景</span></h4>
+                            <p data-i18n="projects.proj2Desc1">构建一站式音乐服务生态系统，实现音乐资源的统一管理、个性化推荐和用户社区互动。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-database"></i> <span data-i18n="projects.data">数据</span></h4>
+                            <p data-i18n="projects.proj2Desc2">基于用户行为数据和音乐元数据，使用MySQL数据库存储用户信息、歌曲数据、收藏记录等。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-cogs"></i> <span data-i18n="projects.approach">方法</span></h4>
+                            <p data-i18n="projects.proj2Desc3">采用前后端分离架构：前端使用Vue生态实现组件化交互界面，后端通过Spring Boot和MyBatis构建数据接口层。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-chart-line"></i> <span data-i18n="projects.outcome">成果</span></h4>
+                            <p data-i18n="projects.proj2Desc4">成功构建完整音乐网站平台，实现个人信息管理、歌曲收藏、歌曲播放下载、管理员设置等核心功能。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-user"></i> <span data-i18n="projects.contribution">个人贡献</span></h4>
+                            <p data-i18n="projects.proj2Desc5">完成前后端架构搭建、Vue项目初始化、Vuex全局状态管理配置、Spring Boot后端项目搭建、MySQL数据库交互和接口设计，以及核心功能模块开发。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 项目3：全球航班数据可视化 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title" data-i18n="projects.proj3">全球航班数据可视化系统</h3>
+                        <span class="project-time">2023.05 - 2023.08</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-item">
+                            <h4><i class="fas fa-question-circle"></i> <span data-i18n="projects.problem">问题背景</span></h4>
+                            <p data-i18n="projects.proj3Desc1">解决航空运营数据多源异构、可视化程度低的问题，实现全球航班运行状态的可视化展示和实时感知。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-database"></i> <span data-i18n="projects.data">数据</span></h4>
+                            <p data-i18n="projects.proj3Desc2">基于FlightAware网站的全球航班数据集和机场地理数据集，通过MapReduce进行分布式数据清洗，Kettle实现ETL。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-cogs"></i> <span data-i18n="projects.approach">方法</span></h4>
+                            <p data-i18n="projects.proj3Desc3">使用MapReduce进行分布式数据清洗，Kettle实现数据ETL(Extract, Transform, Load)，ECharts作为可视化引擎构建Web前端展示层。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-chart-line"></i> <span data-i18n="projects.outcome">成果</span></h4>
+                            <p data-i18n="projects.proj3Desc4">通过可视化大屏展示延迟区域机场数量、延迟率、全球航班准点率、航班次数和飞行时间分布等图表，实现全球航班数据的统计分析。</p>
+                        </div>
+                        <div class="project-item">
+                            <h4><i class="fas fa-user"></i> <span data-i18n="projects.contribution">个人贡献</span></h4>
+                            <p data-i18n="projects.proj3Desc5">完成数据清洗、ETL流程设计、前端可视化界面开发，实现多维度航班数据可视化展示。</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 第五部分：Resume -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="resume.title">简历</h2>
+            <div class="resume-content">
+                <div class="resume-preview">
+                    <div class="resume-header">
+                        <h3 id="resumeName">徐瑞莹 (XU Ruiying)</h3>
+                        <p class="resume-title" data-i18n="resume.titleText">数据科学硕士 | 数据分析师</p>
+                    </div>
+
+                    <div class="resume-section-item">
+                        <h4><i class="fas fa-graduation-cap"></i> <span data-i18n="resume.education">教育背景</span></h4>
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <strong data-i18n="about.uniMaster">岭南大学</strong>
+                                <span>2025.09 - Present</span>
+                            </div>
+                            <p data-i18n="about.master">数据科学硕士 | GPA: 3.69/4.0</p>
+                        </div>
+                        <div class="resume-item">
+                            <div class="resume-item-header">
+                                <strong data-i18n="about.uniBachelor">河南工业大学</strong>
+                                <span>2020.09 - 2024.06</span>
+                            </div>
+                            <p data-i18n="about.bachelor">数据科学与大数据技术学士 | GPA: 3.5/5.0, Top 20%</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-section-item">
+                        <h4><i class="fas fa-code"></i> <span data-i18n="resume.skills">技能</span></h4>
+                        <ul class="resume-skills-list">
+                            <li><strong data-i18n="resume.programming">编程语言:</strong> Python, Java, SQL, C</li>
+                            <li><strong data-i18n="resume.bigData">大数据技术:</strong> Hadoop, Hive, MapReduce, Kettle</li>
+                            <li><strong data-i18n="resume.visualization">可视化:</strong> Tableau, ECharts</li>
+                            <li><strong data-i18n="resume.webDev">Web开发:</strong> Vue.js, Spring Boot, MyBatis</li>
+                            <li><strong data-i18n="resume.languages">语言能力:</strong> <span data-i18n="resume.ielts">雅思6.0</span>，<span data-i18n="resume.cetPass">通过CET-4和CET-6</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="resume-section-item">
+                        <h4><i class="fas fa-trophy"></i> <span data-i18n="resume.achievements">荣誉与成就</span></h4>
+                        <ul class="resume-achievements-list">
+                            <li data-i18n="resume.award1">2024年校级优秀毕业论文</li>
+                            <li data-i18n="resume.award2">第13届蓝桥杯全国软件信息技术大赛三等奖（Python类别，省级，2023）</li>
+                            <li data-i18n="resume.award3">2023年校级优秀班干部</li>
+                            <li data-i18n="resume.award4">2022年校级优秀共青团干部</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-download">
+                    <a href="#" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i>
+                        <span data-i18n="resume.download">下载完整简历 (PDF)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第六部分：Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">联系方式</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.email">邮箱</h4>
+                            <p><a href="mailto:ruiyingxu@ln.hk">ruiyingxu@ln.hk</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.phone">电话</h4>
+                            <p>+86 18638708882 / +852 84955232</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.github">GitHub</h4>
+                            <p><a href="#" data-i18n="contact.githubUrl">[Your GitHub URL]</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-message">
+                    <h3 data-i18n="contact.message">给我留言</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" data-i18n="contact.form.name">姓名</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-i18n="contact.form.email">邮箱</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact.form.message">留言</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 <span data-i18n="footer.name">徐瑞莹</span>. <span data-i18n="footer.rights">保留所有权利</span></p>
+        </div>
+    </footer>
+
+    <!-- 错误处理脚本 -->
+    <script>
+        // 确保JavaScript错误能显示
+        window.onerror = function(msg, url, lineNo, columnNo, error) {
+            console.error('Error: ', msg, '\nURL: ', url, '\nLine: ', lineNo, '\nColumn: ', columnNo, '\nError object: ', error);
+            alert('JavaScript错误: ' + msg);
+            return false;
+        };
+    </script>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

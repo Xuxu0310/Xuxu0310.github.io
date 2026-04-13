@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我",
+    "skills": "技能",
+    "projects": "项目",
+    "resume": "简历",
+    "contact": "联系方式"
+  },
+  "hero": {
+    "greeting": "你好，我是",
+    "nameZh": "徐瑞莹",
+    "nameEn": "XU Ruiying",
+    "headline": "数据科学硕士 | 寻求数据分析师/数据科学RA岗位",
+    "cta": "联系我",
+    "viewProjects": "查看项目"
+  },
+  "about": {
+    "title": "关于我",
+    "intro": "目前就读于岭南大学数据科学专业，预计2026年8月毕业。我善于从数据中挖掘价值，将复杂的技术问题转化为可落地的解决方案。",
+    "education": "教育背景",
+    "uniMaster": "岭南大学",
+    "uniBachelor": "河南工业大学",
+    "master": "数据科学硕士 | GPA: 3.69/4.0",
+    "bachelor": "数据科学与大数据技术学士 | GPA: 3.5/5.0, Top 20%",
+    "strengths": "我的优势",
+    "strength1": "数据挖掘与大数据分析",
+    "strength2": "人工智能与机器学习应用",
+    "strength3": "智慧城市数据科学",
+    "strength4": "全栈开发能力",
+    "achievement1": "2024校级优秀毕业论文",
+    "achievement1Desc": "珠宝租赁系统设计与实现",
+    "achievement2": "蓝桥杯三等奖",
+    "achievement2Desc": "第13届全国软件信息技术大赛Python类别省级三等奖",
+    "achievement3": "优秀学生干部",
+    "achievement3Desc": "2023校级优秀班干部、2022校级优秀共青团干部"
+  },
+  "skills": {
+    "title": "专业技能",
+    "technical": "技术技能",
+    "research": "研究兴趣",
+    "tools": "工具",
+    "research1": "数据挖掘和大数据分析",
+    "research2": "人工智能和机器学习应用",
+    "research3": "智慧城市数据科学",
+    "research4": "大语言模型(LLMs)"
+  },
+  "projects": {
+    "title": "项目经历",
+    "subtitle": "以下是我参与的主要数据分析与机器学习项目",
+    "problem": "问题背景",
+    "data": "数据",
+    "approach": "方法",
+    "outcome": "成果",
+    "contribution": "个人贡献",
+    "ongoing": "进行中",
+    "github": "GitHub",
+    "noLink": "无",
+    "project1": {
+      "title": "基于Hadoop的珠宝租赁系统设计与实现",
+      "time": "2024.01 - 2024.06",
+      "problem": "针对珠宝租赁行业快速增长的需求，解决珠宝供需双方灵活匹配的问题，提高行业管理效率和服务质量。",
+      "data": "使用MySQL进行数据存储和管理，依托Hadoop平台完成大规模数据处理和分析，为租赁业务提供数据支持。",
+      "approach": "前端使用JavaScript和Vue.js构建界面，后端基于Hadoop平台进行数据处理，MySQL存储数据。完成系统需求分析、架构设计、编码实现和测试部署。",
+      "outcome": "荣获2024年校级优秀毕业论文。系统实现管理员和用户两大模块：管理员管理用户、珠宝、租赁、公告，查看租赁数据统计；用户可出租或租赁珠宝。",
+      "contribution": "独立完成整个系统的需求分析、架构设计、编码实现和测试部署。设计并实现前后端功能模块，完成数据库设计和Hadoop数据处理流程。"
+    },
+    "project2": {
+      "title": "音乐网站项目（科大讯飞指导）",
+      "time": "2024.01 - 2024.05",
+      "problem": "构建一站式音乐服务生态系统，实现音乐资源的统一管理、个性化推荐和用户社区互动。",
+      "data": "基于用户行为数据和音乐元数据，使用MySQL数据库存储用户信息、歌曲数据、收藏记录等。",
+      "approach": "采用前后端分离架构：前端使用Vue生态实现组件化交互界面，后端通过Spring Boot和MyBatis构建数据接口层。",
+      "outcome": "成功构建完整音乐网站平台，实现个人信息管理、歌曲收藏、歌曲播放下载、管理员设置等核心功能。",
+      "contribution": "完成前后端架构搭建、Vue项目初始化、Vuex全局状态管理配置、Spring Boot后端项目搭建、MySQL数据库交互和接口设计，以及核心功能模块开发。"
+    },
+    "project3": {
+      "title": "全球航班数据可视化系统",
+      "time": "2023.05 - 2023.08",
+      "problem": "解决航空运营数据多源异构、可视化程度低的问题，实现全球航班运行状态的可视化展示和实时感知。",
+      "data": "基于FlightAware网站的全球航班数据集和机场地理数据集，通过MapReduce进行分布式数据清洗，Kettle实现ETL。",
+      "approach": "使用MapReduce进行分布式数据清洗，Kettle实现数据ETL(Extract, Transform, Load)，ECharts作为可视化引擎构建Web前端展示层。",
+      "outcome": "通过可视化大屏展示延迟区域机场数量、延迟率、全球航班准点率、航班次数和飞行时间分布等图表，实现全球航班数据的统计分析。",
+      "contribution": "完成数据清洗、ETL流程设计、前端可视化界面开发，实现多维度航班数据可视化展示。"
+    },
+    "project4": {
+      "title": "基于机器学习的ECG异常自动分类研究",
+      "time": "进行中",
+      "problem": "研究心电图(ECG)异常的自动分类方法，针对典型心脏异常如左心室肥大(LVH)进行神经网络模型性能测试。",
+      "data": "12导联ECG数据，通过基线漂移去除和R波峰值检测实现心跳分割，标准化为64样本序列，生成患者平均心跳特征。",
+      "approach": "完成数据预处理、心跳分割、线性插值标准化、错误样本识别与消除，目前正在测试神经网络模型对左心室肥大(LVH)的分类性能。",
+      "outcome": "已完成数据预处理、心跳分割和标准化，正在测试针对LVH的神经网络分类模型性能。",
+      "contribution": "独立完成数据预处理流程设计、心跳分割算法实现、神经网络模型构建与测试。"
+    }
+  },
+  "resume": {
+    "title": "简历",
+    "education": "教育背景",
+    "skills": "技能",
+    "programming": "编程语言:",
+    "bigData": "大数据技术:",
+    "visualization": "可视化:",
+    "webDev": "Web开发:",
+    "languages": "语言能力:",
+    "achievements": "荣誉与成就",
+    "download": "下载完整简历 (PDF)"
+  },
+  "contact": {
+    "title": "联系方式",
+    "email": "邮箱",
+    "phone": "电话",
+    "message": "给我留言",
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "message": "留言",
+      "submit": "发送消息"
+    }
+  },
+  "footer": {
+    "name": "徐瑞莹",
+    "rights": "保留所有权利"
+  }
+}

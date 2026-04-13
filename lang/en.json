@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "nameZh": "徐瑞莹",
+    "nameEn": "XU Ruiying",
+    "headline": "M.S. in Data Science | Seeking Data Analyst / Data Science RA Position",
+    "cta": "Contact Me",
+    "viewProjects": "View Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "Currently pursuing a Master's degree in Data Science at Lingnan University, expected to graduate in August 2026. I excel at extracting insights from data and transforming complex technical challenges into actionable solutions.",
+    "education": "Education",
+    "uniMaster": "Lingnan University",
+    "uniBachelor": "Henan University of Technology",
+    "master": "M.S. in Data Science | GPA: 3.69/4.0",
+    "bachelor": "B.S. in Data Science and Big Data Technology | GPA: 3.5/5.0, Top 20%",
+    "strengths": "My Strengths",
+    "strength1": "Data Mining & Big Data Analysis",
+    "strength2": "AI & Machine Learning Applications",
+    "strength3": "Smart City Data Science",
+    "strength4": "Full-Stack Development",
+    "achievement1": "2024 University-level Excellent Graduation Thesis",
+    "achievement1Desc": "Design and Implementation of Jewelry Rental System",
+    "achievement2": "Blue Bridge Cup Third Prize",
+    "achievement2Desc": "13th National Software and Information Technology Competition, Python Category, Provincial Level Third Prize",
+    "achievement3": "Excellent Student Cadre",
+    "achievement3Desc": "2023 University-level Excellent Class Cadre, 2022 University-level Excellent Youth League Cadre"
+  },
+  "skills": {
+    "title": "Professional Skills",
+    "technical": "Technical Skills",
+    "research": "Research Interests",
+    "tools": "Tools",
+    "research1": "Data Mining and Big Data Analysis",
+    "research2": "AI and Machine Learning Applications",
+    "research3": "Smart City Data Science",
+    "research4": "Large Language Models (LLMs)"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Here are my main data analysis and machine learning projects",
+    "problem": "Problem",
+    "data": "Data",
+    "approach": "Approach",
+    "outcome": "Outcome",
+    "contribution": "My Contribution",
+    "ongoing": "Ongoing",
+    "github": "GitHub",
+    "noLink": "None",
+    "project1": {
+      "title": "Design and Implementation of Jewelry Rental System Based on Hadoop",
+      "time": "Jan 2024 - Jun 2024",
+      "problem": "To address the rapidly growing demand in jewelry rental industry, designed and implemented a jewelry rental system to achieve flexible matching between jewelry supply and demand parties, improving industry's management efficiency and service quality.",
+      "data": "Used MySQL for data storage and management, relied on Hadoop platform to complete large-scale data processing and analysis, providing data support for rental business.",
+      "approach": "Front-end interface built with JavaScript and Vue.js, back-end based on Hadoop platform for data processing, MySQL for data storage. Completed system requirement analysis, architecture design, coding implementation and test deployment.",
+      "outcome": "Awarded University-level Excellent Graduation Thesis 2024. System implemented two main modules: administrators and users. Administrators manage users, jewelry, rentals, announcements, and view rental statistics. Users can rent out their own jewelry or rent jewelry from others.",
+      "contribution": "Independently completed entire system requirement analysis, architecture design, coding implementation and test deployment. Designed and implemented front-end and back-end functional modules, completed database design and Hadoop data processing pipeline."
+    },
+    "project2": {
+      "title": "Music Website Project (Guided by iFlytek)",
+      "time": "Jan 2024 - May 2024",
+      "problem": "With goal of building a one-stop music service ecosystem, adopted a front-end and back-end separation architecture based on user behavior data and music metadata.",
+      "data": "Based on user behavior data and music metadata, used MySQL database to store user information, song data, collection records, etc.",
+      "approach": "Front-end implemented componentized interactive interface with Vue ecosystem, back-end built data interface layer through Spring Boot and MyBatis.",
+      "outcome": "Successfully built complete music website platform, implemented core functions including personal information management, song collection, song playback and download, and administrator settings.",
+      "contribution": "Completed front-end and back-end architecture construction, initialized Vue project, configured Vuex for global state management, set up Spring Boot back-end project, realized interaction with MySQL database based on MyBatis, and designed relevant interfaces. Completed development of core functions, including construction and implementation of personal information management, song collection function module, song playback and download, and administrator setting functions."
+    },
+    "project3": {
+      "title": "Global Flight Data Visualization System",
+      "time": "May 2023 - Aug 2023",
+      "problem": "To address problems of inefficient supply and demand matching and scattered data management in home service market, this project adopts a Java Web technology stack (Servlet+JSP+JDBC) to build platform application layer, and combines Hadoop and Hive to build a data storage and analysis layer. Created an online platform for home service market to provide high-quality and convenient home services to meet various daily needs of users.",
+      "data": "Based on global flight dataset and airport geographic dataset from FlightAware website, first completed distributed data cleaning using MapReduce, then realized data ETL (Extract, Transform, Load) through Kettle.",
+      "approach": "Completed distributed data cleaning using MapReduce, realized data ETL through Kettle, and finally built a Web front-end display layer with ECharts as visualization engine.",
+      "outcome": "Through statistics and analysis of global flight data, realized data visualization display through ECharts on Web front-end page. Through visual large screen, displayed charts such as number of airports in delayed areas, delay rate, on-time rate, flight times and flight time distribution of global flights.",
+      "contribution": "Completed construction of back-end architecture. Built a data storage cluster based on Hadoop, defined 8 partition tables using Hive to build a data warehouse, and was responsible for storage and backup of daily user behavior logs, order data, service evaluations and other data. Designed and developed core modules such as user registration and login, service search and appointment, and evaluation and complaint."
+    },
+    "project4": {
+      "title": "Research on Automatic Classification of ECG Abnormalities Based on Machine Learning",
+      "time": "Ongoing",
+      "problem": "Researching on automatic classification method of ECG abnormalities, testing neural network model performance for typical cardiac abnormality of Left Ventricular Hypertrophy (LVH).",
+      "data": "12-lead ECG data, through baseline wander removal and R-wave peak detection achieved heartbeat segmentation, standardized into a 64-sample sequence through linear interpolation, and generated average heartbeat characteristics of patients.",
+      "approach": "Completed data preprocessing, heartbeat segmentation, linear interpolation standardization, identified and eliminated incorrect samples. Currently testing neural network model classification performance for Left Ventricular Hypertrophy (LVH).",
+      "outcome": "Completed data preprocessing, heartbeat segmentation and standardization. Currently testing neural network classification model performance for LVH.",
+      "contribution": "Independently completed data preprocessing pipeline design, heartbeat segmentation algorithm implementation, neural network model construction and testing."
+    }
+  },
+  "resume": {
+    "title": "Resume",
+    "education": "Education",
+    "skills": "Skills",
+    "programming": "Programming Languages:",
+    "bigData": "Big Data Technologies:",
+    "visualization": "Visualization:",
+    "webDev": "Web Development:",
+    "languages": "Languages:",
+    "achievements": "Honors & Achievements",
+    "download": "Download Full Resume (PDF)"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Send Me a Message",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "name": "XU Ruiying",
+    "rights": "All Rights Reserved"
+  }
+}
